@@ -1,6 +1,6 @@
 services:
   krakend:
-    image: devopsfaith/krakend:2.9
+    image: devopsfaith/krakend:watch
     volumes:
       - ".:/etc/krakend"
     ports:
